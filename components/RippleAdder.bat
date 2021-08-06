@@ -92,14 +92,6 @@ IF /I %g5% == 2 (set "coutA5=1") else (set "coutA5=0")
 IF /I %g5% == 1 (set "sumA5=1") else (set "sumA5=0")
 IF /I %sumA5% == 2 (set "coutB5=1") else (set "coutB5=0")
 IF /I %coutC4% == 1 (set "sumB5=1") else (set "sumB5=0")
-set /a coutAB4=coutA4+coutB4
-if /I %coutAB4% >= 1 (set "coutC4=1") else (set "coutC4=0")
-
-set /a g5=e5+f5
-IF /I %g5% == 2 (set "coutA5=1") else (set "coutA5=0")
-IF /I %g5% == 1 (set "sumA5=1") else (set "sumA5=0")
-IF /I %sumA5% == 2 (set "coutB5=1") else (set "coutB5=0")
-IF /I %coutC4% == 1 (set "sumB5=1") else (set "sumB5=0")
 set /a coutAB5=coutA5+coutB5
 if /I %coutAB5% >= 1 (set "coutC5=1") else (set "coutC5=0")
 
