@@ -3,3 +3,4 @@ trying to recreate the cpu from http://simplecpudesign.com/simple_cpu_v1/index.h
 
 
 it wont be very fast tho
+project still is being made, will take some time...
