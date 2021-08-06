@@ -268,7 +268,7 @@ echo ZC4=%zc4%
 echo ZC5=%zc5%
 echo ZC6=%zc6%
 echo ZC7=%zc7%
-
+echo.
 echo Outputs of other two mux:
 echo ZA0=%za0% ZB0=%zb0%
 echo ZA1=%za1% ZB1=%zb1%
@@ -278,7 +278,7 @@ echo ZA4=%za4% ZB4=%zb4%
 echo ZA5=%za5% ZB5=%zb5%
 echo ZA6=%za6% ZB6=%zb6%
 echo ZA7=%za7% ZB7=%zb7%
-
+echo.
 echo Used values:
 echo A0=%a0% B0=%b0% C0=%c0% D0=%d0%
 echo A1=%a1% B0=%b1% C1=%c1% D1=%d1%
