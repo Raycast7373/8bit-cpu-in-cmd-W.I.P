@@ -109,12 +109,7 @@ IF /I %Go3% == 0 (set /a "z6=0") ELSE (set /a "z6=1")
 set /a Ho3=Ho1+Ho2
 IF /I %Ho3% == 0 (set /a "z7=0") ELSE (set /a "z7=1")
 
-echo Z0=%z0% Z1=%z1% 
-echo Z2=%z2% Z3=%z3% 
-echo Z4=%z4% Z5=%z5% 
-echo Z6=%z6% Z7=%z7% 
-
-echo used values:
+echo Used values:
 echo A0=%a0% B0=%b0%
 echo A0=%a1% B0=%b1%
 echo A0=%a2% B0=%b2%
@@ -124,5 +119,11 @@ echo A0=%a5% B0=%b5%
 echo A0=%a6% B0=%b6%
 echo A0=%a7% B0=%b7%
 echo Sel=%sel%
+echo.
+echo Output:
+echo Z0=%z0% Z1=%z1% 
+echo Z2=%z2% Z3=%z3% 
+echo Z4=%z4% Z5=%z5% 
+echo Z6=%z6% Z7=%z7% 
 del .nul
 pause
