@@ -6,7 +6,9 @@ set /p e=
 echo Please enter a value for B (1 or 0)
 set /p f=
 echo.
-
+echo Current values:
+echo A=%e% B=%f%
+echo.
 set /a g=e+f
 
 IF /I %g% == 2 (set "cout=1") else (set "cout=0")

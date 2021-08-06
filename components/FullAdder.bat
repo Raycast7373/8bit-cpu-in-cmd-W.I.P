@@ -7,6 +7,8 @@ echo Please enter a value for B (1 or 0)
 set /p f=
 echo Please enter a value for Cin (1 or 0)
 set /p cin=
+echo Current values:
+echo A=%e% B=%f% Cin=%cin%
 echo.
 
 set /a g=e+f

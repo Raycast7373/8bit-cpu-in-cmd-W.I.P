@@ -119,6 +119,7 @@ IF /I %coutC6% == 1 (set "sumB7=1") else (set "sumB7=0")
 set /a coutAB7=coutA7+coutB7
 if /I %coutAB7% >= 1 (set "coutC7=1") else (set "coutC7=0")
 
+echo.
 echo Input:
 echo A0=%e0% B0=%f0%
 echo A1=%e1% B1=%f1%
