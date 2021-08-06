@@ -71,7 +71,7 @@ echo enter value for sel1 (0 or 1)
 set /p sel1=
 
 echo.
-echo values now are: 
+echo Current Values: 
 echo A0=%a0% B0=%b0% C0=%c0% D0=%d0%
 echo A1=%a1% B0=%b1% C1=%c1% D1=%d1%
 echo A2=%a2% B0=%b2% C2=%c2% D2=%d2%
@@ -258,7 +258,17 @@ IF /I %GoC3% == 0 (set /a "zc6=0") ELSE (set /a "zc6=1")
 set /a HoC3=HoC1+HoC2
 IF /I %HoC3% == 0 (set /a "zc7=0") ELSE (set /a "zc7=1")
 
-
+echo Used values:
+echo A0=%a0% B0=%b0% C0=%c0% D0=%d0%
+echo A1=%a1% B0=%b1% C1=%c1% D1=%d1%
+echo A2=%a2% B0=%b2% C2=%c2% D2=%d2%
+echo A3=%a3% B0=%b3% C3=%c3% D3=%d3%
+echo A4=%a4% B0=%b4% C4=%c4% D4=%d4%
+echo A5=%a5% B0=%b5% C5=%c5% D5=%d5%
+echo A6=%a6% B0=%b6% C6=%c6% D6=%d6%
+echo A7=%a7% B0=%b7% C7=%c7% D7=%d7%
+echo Sel0=%sel0% Sel1=%sel1%
+echo.
 echo Output:
 echo ZC0=%zc0%
 echo ZC1=%zc1%
@@ -278,16 +288,5 @@ echo ZA4=%za4% ZB4=%zb4%
 echo ZA5=%za5% ZB5=%zb5%
 echo ZA6=%za6% ZB6=%zb6%
 echo ZA7=%za7% ZB7=%zb7%
-echo.
-echo Used values:
-echo A0=%a0% B0=%b0% C0=%c0% D0=%d0%
-echo A1=%a1% B0=%b1% C1=%c1% D1=%d1%
-echo A2=%a2% B0=%b2% C2=%c2% D2=%d2%
-echo A3=%a3% B0=%b3% C3=%c3% D3=%d3%
-echo A4=%a4% B0=%b4% C4=%c4% D4=%d4%
-echo A5=%a5% B0=%b5% C5=%c5% D5=%d5%
-echo A6=%a6% B0=%b6% C6=%c6% D6=%d6%
-echo A7=%a7% B0=%b7% C7=%c7% D7=%d7%
-echo Sel0=%sel0% Sel1=%sel1%
 del .nul
 pause
