@@ -36,7 +36,7 @@ set /p b7=
 echo enter value for sel (0 or 1)
 set /p sel=
 echo.
-echo values now are: 
+echo Current values: 
 echo A0=%a0% B0=%b0%
 echo A1=%a1% B0=%b1%
 echo A2=%a2% B0=%b2%
