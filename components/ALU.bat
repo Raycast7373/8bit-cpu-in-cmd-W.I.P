@@ -69,7 +69,6 @@ set rep4=%invs4%
 set rep5=%invs4%
 set rep6=%invs4%
 set rep7=%invs4%
-pause
 echo bitwise inv > .nul
 set /a bs30=b0+s3
 if /I %bs30% == 1 (set "binv0=1") else (set "binv0=0")
