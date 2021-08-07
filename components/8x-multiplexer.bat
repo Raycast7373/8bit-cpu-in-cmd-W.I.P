@@ -38,13 +38,13 @@ set /p sel=
 echo.
 echo Current values: 
 echo A0=%a0% B0=%b0%
-echo A1=%a1% B0=%b1%
-echo A2=%a2% B0=%b2%
-echo A3=%a3% B0=%b3%
-echo A4=%a4% B0=%b4%
-echo A5=%a5% B0=%b5%
-echo A6=%a6% B0=%b6%
-echo A7=%a7% B0=%b7%
+echo A1=%a1% B1=%b1%
+echo A2=%a2% B2=%b2%
+echo A3=%a3% B3=%b3%
+echo A4=%a4% B4=%b4%
+echo A5=%a5% B5=%b5%
+echo A6=%a6% B6=%b6%
+echo A7=%a7% B7=%b7%
 echo Sel=%sel%
 echo.
 
@@ -111,13 +111,13 @@ IF /I %Ho3% == 0 (set /a "z7=0") ELSE (set /a "z7=1")
 
 echo Used values:
 echo A0=%a0% B0=%b0%
-echo A0=%a1% B0=%b1%
-echo A0=%a2% B0=%b2%
-echo A0=%a3% B0=%b3%
-echo A0=%a4% B0=%b4%
-echo A0=%a5% B0=%b5%
-echo A0=%a6% B0=%b6%
-echo A0=%a7% B0=%b7%
+echo A1=%a1% B1=%b1%
+echo A2=%a2% B2=%b2%
+echo A3=%a3% B3=%b3%
+echo A4=%a4% B4=%b4%
+echo A5=%a5% B5=%b5%
+echo A6=%a6% B6=%b6%
+echo A7=%a7% B7=%b7%
 echo Sel=%sel%
 echo.
 echo Output:
