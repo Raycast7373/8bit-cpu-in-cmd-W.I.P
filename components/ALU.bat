@@ -344,6 +344,9 @@ echo Z0=%z0% Z1=%z1%
 echo Z2=%z2% Z3=%z3% 
 echo Z4=%z4% Z5=%z5% 
 echo Z6=%z6% Z7=%z7% 
+echo.
+echo Binary output:
+echo %z0%%z1%%z2%%z3%%z4%%z5%%z6%%z7%
 echo Cout=%cout%
 del .nul
 pause
