@@ -20,7 +20,7 @@ IF /I %sumA% == 2 (set "coutB=1") else (set "coutB=0")
 IF /I %cin% == 1 (set "sumB=1") else (set "sumB=0")
 
 set /a coutAB=coutA+coutB
-if /I %coutAB% >= 1 (set "coutC=1") else (set "coutC=0")
+if /I %coutAB% GEQ 1 (set "coutC=1") else (set "coutC=0")
 
 echo Input:
 echo A=%e% B=%f% Cin=%cin%
