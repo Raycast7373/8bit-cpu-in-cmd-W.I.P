@@ -1,4 +1,4 @@
-@echo on
+@echo off
 color a
 echo enter value for A0 (0 or 1)
 set /p a0=
