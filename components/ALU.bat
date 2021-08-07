@@ -104,7 +104,7 @@ if /I %rbi6% == 2 (set "ba16=1") else (set "ba16=0")
 set /a rbi7=rep7+binv7
 if /I %rbi7% == 2 (set "ba17=1") else (set "ba17=0")
 echo ripple adder > .nul
-
+set /a cin=%s2%
 set /a g0=a0+ba10
 IF /I %g0% == 2 (set "coutA0=1") else (set "coutA0=0")
 IF /I %g0% == 1 (set "sumA0=1") else (set "sumA0=0")
