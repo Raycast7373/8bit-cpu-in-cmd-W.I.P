@@ -344,4 +344,5 @@ echo Z2=%z2% Z3=%z3%
 echo Z4=%z4% Z5=%z5% 
 echo Z6=%z6% Z7=%z7% 
 echo Cout=%cout%
+del .nul
 pause
