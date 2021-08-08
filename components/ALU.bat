@@ -1,49 +1,49 @@
 @echo off
 color a
-echo enter value for A0 (0 or 1)
-set /p a0=
-echo enter value for A1 (0 or 1)
-set /p a1=
-echo enter value for A2 (0 or 1)
-set /p a2=
-echo enter value for A3 (0 or 1)
-set /p a3=
-echo enter value for A4 (0 or 1)
-set /p a4=
-echo enter value for A5 (0 or 1)
-set /p a5=
-echo enter value for A6 (0 or 1)
-set /p a6=
 echo enter value for A7 (0 or 1)
 set /p a7=
+echo enter value for A6 (0 or 1)
+set /p a6=
+echo enter value for A5 (0 or 1)
+set /p a5=
+echo enter value for A4 (0 or 1)
+set /p a4=
+echo enter value for A3 (0 or 1)
+set /p a3=
+echo enter value for A2 (0 or 1)
+set /p a2=
+echo enter value for A1 (0 or 1)
+set /p a1=
+echo enter value for A0 (0 or 1)
+set /p a0=
 echo.
-echo enter value for B0 (0 or 1)
-set /p b0=
-echo enter value for B1 (0 or 1)
-set /p b1=
-echo enter value for B2 (0 or 1)
-set /p b2=
-echo enter value for B3 (0 or 1)
-set /p b3=
-echo enter value for B4 (0 or 1)
-set /p b4=
-echo enter value for B5 (0 or 1)
-set /p b5=
-echo enter value for B6 (0 or 1)
-set /p b6=
 echo enter value for B7 (0 or 1)
 set /p b7=
+echo enter value for B6 (0 or 1)
+set /p b6=
+echo enter value for B5 (0 or 1)
+set /p b5=
+echo enter value for B4 (0 or 1)
+set /p b4=
+echo enter value for B3 (0 or 1)
+set /p b3=
+echo enter value for B2 (0 or 1)
+set /p b2=
+echo enter value for B1 (0 or 1)
+set /p b1=
+echo enter value for B0 (0 or 1)
+set /p b0=
 echo.
-echo enter value for S0 (0 or 1)
-set /p s0=
-echo enter value for S1 (0 or 1)
-set /p s1=
-echo enter value for S2 (0 or 1)
-set /p s2=
-echo enter value for S3 (0 or 1)
-set /p s3=
 echo enter value for S4 (0 or 1)
 set /p s4=
+echo enter value for S3 (0 or 1)
+set /p s3=
+echo enter value for S2 (0 or 1)
+set /p s2=
+echo enter value for S1 (0 or 1)
+set /p s1=
+echo enter value for S0 (0 or 1)
+set /p s0=
 echo.
 echo Current values:
 echo A0=%a0% B0=%b0%
@@ -348,7 +348,7 @@ echo Z4=%z4% Z5=%z5%
 echo Z6=%z6% Z7=%z7% 
 echo.
 echo Binary output:
-echo %z0%%z1%%z2%%z3%%z4%%z5%%z6%%z7%
+echo %z7%%z6%%z5%%z4%%z3%%z2%%z1%%z0%
 echo Cout=%cout%
 del .nul
 pause
