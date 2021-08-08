@@ -1,37 +1,37 @@
 @echo off
 color a
-echo Please enter a value for A0 (1 or 0)
-set /p a0=
-echo Please enter a value for A1 (1 or 0)
-set /p a1=
-echo Please enter a value for A2 (1 or 0)
-set /p a2=
-echo Please enter a value for A3 (1 or 0)
-set /p a3=
-echo Please enter a value for A4 (1 or 0)
-set /p a4=
-echo Please enter a value for A5 (1 or 0)
-set /p a5=
-echo Please enter a value for A6 (1 or 0)
-set /p a6=
 echo Please enter a value for A7 (1 or 0)
 set /p a7=
-echo Please enter a value for B0 (1 or 0)
-set /p ba10=
-echo Please enter a value for B1 (1 or 0)
-set /p ba11=
-echo Please enter a value for B2 (1 or 0)
-set /p ba12=
-echo Please enter a value for B3 (1 or 0)
-set /p ba13=
-echo Please enter a value for B4 (1 or 0)
-set /p ba14=
-echo Please enter a value for B5 (1 or 0)
-set /p ba15=
-echo Please enter a value for B6 (1 or 0)
-set /p ba16=
+echo Please enter a value for A6 (1 or 0)
+set /p a6=
+echo Please enter a value for A5 (1 or 0)
+set /p a5=
+echo Please enter a value for A4 (1 or 0)
+set /p a4=
+echo Please enter a value for A3 (1 or 0)
+set /p a3=
+echo Please enter a value for A2 (1 or 0)
+set /p a2=
+echo Please enter a value for A1 (1 or 0)
+set /p a1=
+echo Please enter a value for A0 (1 or 0)
+set /p a0=
 echo Please enter a value for B7 (1 or 0)
 set /p ba17=
+echo Please enter a value for B6 (1 or 0)
+set /p ba16=
+echo Please enter a value for B5 (1 or 0)
+set /p ba15=
+echo Please enter a value for B4 (1 or 0)
+set /p ba14=
+echo Please enter a value for B3 (1 or 0)
+set /p ba13=
+echo Please enter a value for B2 (1 or 0)
+set /p ba12=
+echo Please enter a value for B1 (1 or 0)
+set /p ba11=
+echo Please enter a value for B0 (1 or 0)
+set /p ba10=
 echo Please enter a value for Cin (1 or 0)
 set /p s2=
 echo.
@@ -44,7 +44,7 @@ echo A4=%a4% B4=%ba14%
 echo A5=%a5% B5=%ba15%
 echo A6=%a6% B6=%ba16%
 echo A7=%a7% B7=%ba17%
-echo Cin=%cin%
+echo Cin=%s2%
 echo.
 set /a rain0=ba10+a0
 set /a rain1=ba11+a1
@@ -120,6 +120,6 @@ echo Sum6=%sum6% Sum7=%sum7%
 echo Cout=%cout%
 echo.
 echo Bin output:
-echo %sum0%%sum1%%sum2%%sum3%%sum4%%sum5%%sum6%%sum7%
+echo %sum7%%sum6%%sum5%%sum4%%sum3%%sum2%%sum1%%sum0%
 echo.
 pause
