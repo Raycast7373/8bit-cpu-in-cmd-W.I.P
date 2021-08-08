@@ -17,114 +17,109 @@ set /p a6=
 echo Please enter a value for A7 (1 or 0)
 set /p a7=
 echo Please enter a value for B0 (1 or 0)
-set /p b0=
+set /p ba10=
 echo Please enter a value for B1 (1 or 0)
-set /p b1=
+set /p ba11=
 echo Please enter a value for B2 (1 or 0)
-set /p b2=
+set /p ba12=
 echo Please enter a value for B3 (1 or 0)
-set /p b3=
+set /p ba13=
 echo Please enter a value for B4 (1 or 0)
-set /p b4=
+set /p ba14=
 echo Please enter a value for B5 (1 or 0)
-set /p b5=
+set /p ba15=
 echo Please enter a value for B6 (1 or 0)
-set /p b6=
+set /p ba16=
 echo Please enter a value for B7 (1 or 0)
-set /p b7=
+set /p ba17=
 echo Please enter a value for Cin (1 or 0)
-set /p cin=
-echo.
-echo Current values:
-echo A0=%a0% B0=%b0%
-echo A1=%a1% B1=%b1%
-echo A2=%a2% B2=%b2%
-echo A3=%a3% B3=%b3%
-echo A4=%a4% B4=%b4%
-echo A5=%a5% B5=%b5%
-echo A6=%a6% B6=%b6%
-echo A7=%a7% B7=%b7%
-echo Cin=%cin%
-set /a g0=a0+b0
-IF /I %g0% == 2 (set "coutA0=1") else (set "coutA0=0")
-IF /I %g0% == 1 (set "sumA0=1") else (set "sumA0=0")
-set /a sumA00=sumA0+cin
-IF /I %sumA00% == 2 (set "coutB0=1") else (set "coutB0=0")
-IF /I %sumA00% == 1 (set "sumB0=1") else (set "sumB0=0")
-set /a coutAB0=coutA0+coutB0
-if /I %coutAB0% GEQ 1 (set "coutC0=1") else (set "coutC0=0")
-set /a g1=a1+b1
-IF /I %g1% == 2 (set "coutA1=1") else (set "coutA1=0")
-IF /I %g1% == 1 (set "sumA1=1") else (set "sumA1=0")
-set /a sumA11=sumA1+cin
-IF /I %sumA11% == 2 (set "coutB1=1") else (set "coutB1=0")
-IF /I %sumA11% == 1 (set "sumB1=1") else (set "sumB1=0")
-set /a coutAB1=coutA1+coutB1
-if /I %coutAB1% GEQ 1 (set "coutC1=1") else (set "coutC1=0")
-set /a g2=a2+b2
-IF /I %g2% == 2 (set "coutA2=1") else (set "coutA2=0")
-IF /I %g2% == 1 (set "sumA2=1") else (set "sumA2=0")
-set /a sumA22=sumA2+cin
-IF /I %sumA22% == 2 (set "coutB2=1") else (set "coutB2=0")
-IF /I %sumA22% == 1 (set "sumB2=1") else (set "sumB2=0")
-set /a coutAB2=coutA2+coutB2
-if /I %coutAB2% GEQ 1 (set "coutC2=1") else (set "coutC2=0")
-set /a g3=a3+b3
-IF /I %g3% == 2 (set "coutA3=1") else (set "coutA3=0")
-IF /I %g3% == 1 (set "sumA3=1") else (set "sumA3=0")
-set /a sumA33=sumA3+cin
-IF /I %sumA33% == 2 (set "coutB3=1") else (set "coutB3=0")
-IF /I %sumA33% == 1 (set "sumB3=1") else (set "sumB3=0")
-set /a coutAB3=coutA3+coutB3
-if /I %coutAB3% GEQ 1 (set "coutC3=1") else (set "coutC3=0")
-set /a g4=a4+b4
-IF /I %g4% == 2 (set "coutA4=1") else (set "coutA4=0")
-IF /I %g4% == 1 (set "sumA4=1") else (set "sumA4=0")
-set /a sumA44=sumA4+cin
-IF /I %sumA44% == 2 (set "coutB4=1") else (set "coutB4=0")
-IF /I %sumA44% == 1 (set "sumB4=1") else (set "sumB4=0")
-set /a coutAB4=coutA4+coutB4
-if /I %coutAB4% GEQ 1 (set "coutC4=1") else (set "coutC4=0")
-set /a g5=a5+b5
-IF /I %g5% == 2 (set "coutA5=1") else (set "coutA5=0")
-IF /I %g5% == 1 (set "sumA5=1") else (set "sumA5=0")
-set /a sumA55=sumA5+cin
-IF /I %sumA55% == 2 (set "coutB5=1") else (set "coutB5=0")
-IF /I %sumA55% == 1 (set "sumB5=1") else (set "sumB5=0")
-set /a coutAB5=coutA5+coutB5
-if /I %coutAB5% GEQ 1 (set "coutC5=1") else (set "coutC5=0")
-set /a g6=a6+b6
-IF /I %g6% == 2 (set "coutA6=1") else (set "coutA6=0")
-IF /I %g6% == 1 (set "sumA6=1") else (set "sumA6=0")
-set /a sumA66=sumA6+cin
-IF /I %sumA66% == 2 (set "coutB6=1") else (set "coutB6=0")
-IF /I %sumA66% == 1 (set "sumB6=1") else (set "sumB6=0")
-set /a coutAB6=coutA6+coutB6
-if /I %coutAB6% GEQ 1 (set "coutC6=1") else (set "coutC6=0")
-set /a g7=a7+b7
-IF /I %g7% == 2 (set "coutA7=1") else (set "coutA7=0")
-IF /I %g7% == 1 (set "sumA7=1") else (set "sumA7=0")
-set /a sumA77=sumA7+cin
-IF /I %sumA77% == 2 (set "coutB7=1") else (set "coutB7=0")
-IF /I %sumA77% == 1 (set "sumB7=1") else (set "sumB7=0")
-set /a coutAB7=coutA7+coutB7
-if /I %coutAB7% GEQ 1 (set "cout=1") else (set "cout=0")
+set /p s2=
 echo.
 echo Input:
-echo A0=%a0% B0=%b0%
-echo A1=%a1% B1=%b1%
-echo A2=%a2% B2=%b2%
-echo A3=%a3% B3=%b3%
-echo A4=%a4% B4=%b4%
-echo A5=%a5% B5=%b5%
-echo A6=%a6% B6=%b6%
-echo A7=%a7% B7=%b7%
+echo A0=%a0% B0=%ba10%
+echo A1=%a1% B1=%ba11%
+echo A2=%a2% B2=%ba12%
+echo A3=%a3% B3=%ba13%
+echo A4=%a4% B4=%ba14%
+echo A5=%a5% B5=%ba15%
+echo A6=%a6% B6=%ba16%
+echo A7=%a7% B7=%ba17%
 echo Cin=%cin%
 echo.
+set /a rain0=ba10+a0
+set /a rain1=ba11+a1
+set /a rain2=ba12+a2
+set /a rain3=ba13+a3
+set /a rain4=ba14+a4
+set /a rain5=ba15+a5
+set /a rain6=ba16+a6
+set /a rain7=ba17+a7
+set /a cin=%s2%
+if /I %rain0% == 2 (set "andfa10=1") else (set "andfa10=0")
+if /I %rain0% == 1 (set "xorfa10=1") else (set "xorfa10=0")
+if /I %rain1% == 2 (set "andfa11=1") else (set "andfa11=0")
+if /I %rain1% == 1 (set "xorfa11=1") else (set "xorfa11=0")
+if /I %rain2% == 2 (set "andfa12=1") else (set "andfa12=0")
+if /I %rain2% == 1 (set "xorfa12=1") else (set "xorfa12=0")
+if /I %rain3% == 2 (set "andfa13=1") else (set "andfa13=0")
+if /I %rain3% == 1 (set "xorfa13=1") else (set "xorfa13=0")
+if /I %rain4% == 2 (set "andfa14=1") else (set "andfa14=0")
+if /I %rain4% == 1 (set "xorfa14=1") else (set "xorfa14=0")
+if /I %rain5% == 2 (set "andfa15=1") else (set "andfa15=0")
+if /I %rain5% == 1 (set "xorfa15=1") else (set "xorfa15=0")
+if /I %rain6% == 2 (set "andfa16=1") else (set "andfa16=0")
+if /I %rain6% == 1 (set "xorfa16=1") else (set "xorfa16=0")
+if /I %rain7% == 2 (set "andfa17=1") else (set "andfa17=0")
+if /I %rain7% == 1 (set "xorfa17=1") else (set "xorfa17=0")
+set /a racinxor=cin+xorfa10
+if /I %racinxor% == 2 (set "andfa20=1") else (set "andfa20=0")
+if /I %racinxor% == 1 (set "sum0=1") else (set "sum0=0")
+set /a andp=andfa10+andfa20
+if /I %andp% GEQ 1 (set "racin0=1") else (set "racin0=0")
+set /a racinxor=racin0+xorfa11
+if /I %racinxor% == 2 (set "andfa21=1") else (set "andfa21=0")
+if /I %racinxor% == 1 (set "sum1=1") else (set "sum1=0")
+set /a andp=andfa11+andfa21
+if /I %andp% GEQ 1 (set "racin1=1") else (set "racin1=0")
+set /a racinxor=racin1+xorfa12
+if /I %racinxor% == 2 (set "andfa22=1") else (set "andfa22=0")
+if /I %racinxor% == 1 (set "sum2=1") else (set "sum2=0")
+set /a andp=andfa12+andfa22
+if /I %andp% GEQ 1 (set "racin2=1") else (set "racin2=0")
+set /a racinxor=racin2+xorfa13
+if /I %racinxor% == 2 (set "andfa23=1") else (set "andfa23=0")
+if /I %racinxor% == 1 (set "sum3=1") else (set "sum3=0")
+set /a andp=andfa13+andfa23
+if /I %andp% GEQ 1 (set "racin3=1") else (set "racin3=0")
+set /a racinxor=racin3+xorfa14
+if /I %racinxor% == 2 (set "andfa24=1") else (set "andfa24=0")
+if /I %racinxor% == 1 (set "sum4=1") else (set "sum4=0")
+set /a andp=andfa14+andfa24
+if /I %andp% GEQ 1 (set "racin4=1") else (set "racin4=0")
+set /a racinxor=racin4+xorfa15
+if /I %racinxor% == 2 (set "andfa25=1") else (set "andfa25=0")
+if /I %racinxor% == 1 (set "sum5=1") else (set "sum5=0")
+set /a andp=andfa15+andfa25
+if /I %andp% GEQ 1 (set "racin5=1") else (set "racin5=0")
+set /a racinxor=racin5+xorfa16
+if /I %racinxor% == 2 (set "andfa26=1") else (set "andfa26=0")
+if /I %racinxor% == 1 (set "sum6=1") else (set "sum6=0")
+set /a andp=andfa16+andfa26
+if /I %andp% GEQ 1 (set "racin6=1") else (set "racin6=0")
+set /a racinxor=racin6+xorfa17
+if /I %racinxor% == 2 (set "andfa27=1") else (set "andfa27=0")
+if /I %racinxor% == 1 (set "sum7=1") else (set "sum7=0")
+set /a andp=andfa17+andfa27
+if /I %andp% GEQ 1 (set "cout=1") else (set "cout=0")
+echo.
 echo Output:
-echo Sum0=%sumB0% Sum1=%sumB1%
-echo Sum2=%sumB2% Sum3=%sumB3%
-echo Sum4=%sumB4% Sum5=%sumB5%
-echo Sum6=%sumB6% Sum7=%sumB7%
+echo Sum0=%sum0% Sum1=%sum1%
+echo Sum2=%sum2% Sum3=%sum3%
+echo Sum4=%sum4% Sum5=%sum5%
+echo Sum6=%sum6% Sum7=%sum7%
 echo Cout=%cout%
+echo.
+echo Bin output:
+echo %sum0%%sum1%%sum2%%sum3%%sum4%%sum5%%sum6%%sum7%
+echo.
 pause
