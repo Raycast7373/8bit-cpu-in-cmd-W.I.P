@@ -447,6 +447,10 @@ echo Z6=%z6% Z7=%z7%
 echo.
 echo Binary output:
 echo %z7%%z6%%z5%%z4%%z3%%z2%%z1%%z0%
+echo.
+echo Binary output with cout:
+echo %cout%%z7%%z6%%z5%%z4%%z3%%z2%%z1%%z0%
+echo.
 echo Cout=%cout%
 echo.
 if exist values\test (
@@ -474,6 +478,9 @@ if exist values\test (
     echo. >> testlog-%test%.txt
     echo Binary output: >> testlog-%test%.txt
     echo %z7%%z6%%z5%%z4%%z3%%z2%%z1%%z0% >> testlog-%test%.txt
+    echo. >> testlog-%test%.txt
+    echo Binary output with cout: >> testlog-%test%.txt
+    echo %cout%%z7%%z6%%z5%%z4%%z3%%z2%%z1%%z0% >> testlog-%test%.txt
     echo. >> testlog-%test%.txt
     echo Cout=%cout% >> testlog-%test%.txt
     echo. >> testlog-%test%.txt
