@@ -40,12 +40,27 @@ t = f.read()
 
 t = replacething('./var/startoffile.txt', 'sof', t = t)
 
+t = replacething('./var/1bitinput.txt', '1bi', t = t)
+
+t = replacething('./var/2bitinput.txt', '2bi', t = t)
+
 t = replacething('./var/inv.txt', 'inv', t = t)
 
 t = replacething('./var/and.txt', 'and', t = t)
 
-t = replacething('./var/endoffile.txt', 'eof', t = t)
+t = replacething('./var/buf.txt', 'buf', t = t)
 
+t = replacething('./var/nand.txt', 'nand', t = t)
+
+t = replacething('./var/nor.txt', 'nor', t = t)
+
+t = replacething('./var/xnor.txt', 'xnor', t = t)
+
+t = replacething('./var/xor.txt', 'xor', t = t)
+
+t = replacething('./var/or.txt', 'or', t = t)
+
+t = replacething('./var/endoffile.txt', 'eof', t = t)
 f.close()
 writefile(t)
 exit()
