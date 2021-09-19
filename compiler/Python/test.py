@@ -2,6 +2,7 @@ import os
 import fileinput
 import sys
 from shutil import copyfile
+import pathlib
 
 InputFile = input("enter input file name:")
 print("file is: " + InputFile)
@@ -16,35 +17,42 @@ else:
 
 file = InputFile
 
-f = open(file,  'r')
 
+filenoext = pathlib.PureWindowsPath(file).stem
+ext = ".bat"
+filenewname=filenoext+ext
+print(filenewname)
+
+
+f = open(file, 'r')
+
+
+
+def replacething(ifile, search, t):
+    inp = open(ifile, 'r')
+    avar = inp.read()
+    inp.close()
+    t = t.replace(search, avar)
+    return(t)
+
+def writefile(t):
+    f = open(filenewname, 'w')
+    f.write(t)
+    f.close() 
+
+#replace thing
 t = f.read()
-print(t)
+
+t = replacething('./var/startoffile.txt', 'sof', t = t)
+
+t = replacething('./var/inv.txt', 'inv', t = t)
+
+t = replacething('./var/and.txt', 'and', t = t)
+
+t = replacething('./var/endoffile.txt', 'eof', t = t)
+
+
 f.close()
+writefile(t)
+exit()
 
-def replacement(file, previousw, nextw):
-   for line in fileinput.input(file, inplace=1):
-       line = line.replace(previousw, nextw)
-       sys.stdout.write(line)
-
-#definitions
-
-#start of file
-sofile = "./var/startoffile.txt" #what to replace it with
-sofile = "StartOfFile" #what to replace
-
-
-sof = open(sofile,  'r')
-soo = sof.read()
-sof.close()
-
-#inv
-invfile = "./var/inv.txt"
-inv = "inv"
-
-
-invf = open(invfile,  'r')
-invo = invf.read()
-invf.close()
-
-replacement(file, var1, var2)
