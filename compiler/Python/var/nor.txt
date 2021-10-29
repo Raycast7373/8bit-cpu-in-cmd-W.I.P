@@ -1,0 +1,2 @@
+set /a c=a+b
+if /I %c% == 0 (set "z=1") else (set "z=0")

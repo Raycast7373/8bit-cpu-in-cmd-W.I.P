@@ -1,0 +1,1 @@
+if /I %a% == 1 (set "z=0") else (set "z=1")
