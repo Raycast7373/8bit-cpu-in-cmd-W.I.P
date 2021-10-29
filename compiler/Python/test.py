@@ -3,8 +3,15 @@ import fileinput
 import sys
 from shutil import copyfile
 import pathlib
+import sys, getopt
 
-InputFile = input("enter input file name:")
+InputFile = (sys.argv[1])
+OutputFile = (sys.argv[2])
+
+print("Input file: ", InputFile)
+print("Output file: ", OutputFile)
+
+
 print("file is: " + InputFile)
 
 FileExist = os.path.exists("./" + InputFile)
@@ -16,11 +23,6 @@ else:
 
 file = InputFile
 
-filenoext = pathlib.PureWindowsPath(file).stem
-ext = ".bat"
-filenewname=filenoext+ext
-print(filenewname)
-
 f = open(file, 'r')
 
 def replacething(ifile, search, t):
@@ -31,9 +33,10 @@ def replacething(ifile, search, t):
     return(t)
 
 def writefile(t):
-    f = open(filenewname, 'w')
+    f = open(OutputFile, 'w')
     f.write(t)
     f.close() 
+
 
 #replace thing
 t = f.read()
@@ -64,4 +67,3 @@ t = replacething('./var/endoffile.txt', 'eof', t = t)
 f.close()
 writefile(t)
 exit()
-
