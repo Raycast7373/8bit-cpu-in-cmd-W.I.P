@@ -211,6 +211,7 @@ del testlog-6.txt
 del testlog-7.txt
 del testlog-8.txt
 del testlog-9.txt
-del TestLogs\Testlog-(latest
+del TestLogs\Testlog-(latest 
+del TestLogs\Testlog-(
 color e
 pause

@@ -1,0 +1,283 @@
+used random values: 
+A0=1 B0=1 
+A1=0 B1=0 
+A2=0 B2=1 
+A3=1 B3=0 
+A4=1 B4=1 
+A5=0 B5=0 
+A6=0 B6=1 
+A7=0 B7=1 
+ 
+ 
+ 
+Test 1 Date=di 14-06-2022 Time=10:28:24,58 
+Input: 
+A0=1 B0=1 
+A1=0 B1=0 
+A2=0 B2=1 
+A3=1 B3=0 
+A4=1 B4=1 
+A5=0 B5=0 
+A6=0 B6=1 
+A7=0 B7=1 
+ 
+Binary input A: 
+00011001 
+ 
+Binary input B: 
+11010101 
+ 
+S0=0 S1=0 
+S2=0 S3=0 
+S4=0 
+ 
+Binary output: 
+11101110 
+ 
+Binary output with cout: 
+011101110 
+ 
+Cout=0 
+ 
+ 
+Test 2 Date=di 14-06-2022 Time=10:28:25,24 
+Input: 
+A0=1 B0=1 
+A1=0 B1=0 
+A2=0 B2=1 
+A3=1 B3=0 
+A4=1 B4=1 
+A5=0 B5=0 
+A6=0 B6=1 
+A7=0 B7=1 
+ 
+Binary input A: 
+00011001 
+ 
+Binary input B: 
+11010101 
+ 
+S0=1 S1=0 
+S2=0 S3=0 
+S4=0 
+ 
+Binary output: 
+00010001 
+ 
+Binary output with cout: 
+000010001 
+ 
+Cout=0 
+ 
+ 
+Test 3 Date=di 14-06-2022 Time=10:28:25,90 
+Input: 
+A0=1 B0=1 
+A1=0 B1=0 
+A2=0 B2=1 
+A3=1 B3=0 
+A4=1 B4=1 
+A5=0 B5=0 
+A6=0 B6=1 
+A7=0 B7=1 
+ 
+Binary input A: 
+00011001 
+ 
+Binary input B: 
+11010101 
+ 
+S0=0 S1=1 
+S2=0 S3=0 
+S4=0 
+ 
+Binary output: 
+00011001 
+ 
+Binary output with cout: 
+000011001 
+ 
+Cout=0 
+ 
+ 
+Test 4 Date=di 14-06-2022 Time=10:28:26,50 
+Input: 
+A0=1 B0=1 
+A1=0 B1=0 
+A2=0 B2=1 
+A3=1 B3=0 
+A4=1 B4=1 
+A5=0 B5=0 
+A6=0 B6=1 
+A7=0 B7=1 
+ 
+Binary input A: 
+00011001 
+ 
+Binary input B: 
+11010101 
+ 
+S0=1 S1=1 
+S2=0 S3=0 
+S4=0 
+ 
+Binary output: 
+11010101 
+ 
+Binary output with cout: 
+011010101 
+ 
+Cout=0 
+ 
+ 
+Test 5 Date=di 14-06-2022 Time=10:28:27,10 
+Input: 
+A0=1 B0=1 
+A1=0 B1=0 
+A2=0 B2=1 
+A3=1 B3=0 
+A4=1 B4=1 
+A5=0 B5=0 
+A6=0 B6=1 
+A7=0 B7=1 
+ 
+Binary input A: 
+00011001 
+ 
+Binary input B: 
+11010101 
+ 
+S0=0 S1=0 
+S2=1 S3=1 
+S4=0 
+ 
+Binary output: 
+01000100 
+ 
+Binary output with cout: 
+001000100 
+ 
+Cout=0 
+ 
+ 
+Test 6 Date=di 14-06-2022 Time=10:28:27,72 
+Input: 
+A0=1 B0=1 
+A1=0 B1=0 
+A2=0 B2=1 
+A3=1 B3=0 
+A4=1 B4=1 
+A5=0 B5=0 
+A6=0 B6=1 
+A7=0 B7=1 
+ 
+Binary input A: 
+00011001 
+ 
+Binary input B: 
+11010101 
+ 
+S0=0 S1=0 
+S2=1 S3=0 
+S4=1 
+ 
+Binary output: 
+00011010 
+ 
+Binary output with cout: 
+000011010 
+ 
+Cout=0 
+ 
+ 
+Test 7 Date=di 14-06-2022 Time=10:28:28,32 
+Input: 
+A0=1 B0=1 
+A1=0 B1=0 
+A2=0 B2=1 
+A3=1 B3=0 
+A4=1 B4=1 
+A5=0 B5=0 
+A6=0 B6=1 
+A7=0 B7=1 
+ 
+Binary input A: 
+00011001 
+ 
+Binary input B: 
+11010101 
+ 
+S0=0 S1=0 
+S2=0 S3=0 
+S4=1 
+ 
+Binary output: 
+00011001 
+ 
+Binary output with cout: 
+000011001 
+ 
+Cout=0 
+ 
+ 
+Test 8 Date=di 14-06-2022 Time=10:28:28,93 
+Input: 
+A0=1 B0=1 
+A1=0 B1=0 
+A2=0 B2=1 
+A3=1 B3=0 
+A4=1 B4=1 
+A5=0 B5=0 
+A6=0 B6=1 
+A7=0 B7=1 
+ 
+Binary input A: 
+00011001 
+ 
+Binary input B: 
+11010101 
+ 
+S0=0 S1=0 
+S2=1 S3=0 
+S4=0 
+ 
+Binary output: 
+11101111 
+ 
+Binary output with cout: 
+011101111 
+ 
+Cout=0 
+ 
+ 
+Test 9 Date=di 14-06-2022 Time=10:28:29,53 
+Input: 
+A0=1 B0=1 
+A1=0 B1=0 
+A2=0 B2=1 
+A3=1 B3=0 
+A4=1 B4=1 
+A5=0 B5=0 
+A6=0 B6=1 
+A7=0 B7=1 
+ 
+Binary input A: 
+00011001 
+ 
+Binary input B: 
+11010101 
+ 
+S0=0 S1=0 
+S2=0 S3=1 
+S4=0 
+ 
+Binary output: 
+01000011 
+ 
+Binary output with cout: 
+001000011 
+ 
+Cout=0 
+ 
+ 
+end of tests 
